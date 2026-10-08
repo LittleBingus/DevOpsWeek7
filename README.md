@@ -37,3 +37,13 @@ python -m pytest -v
 
 ## Week 7
 Follow the student assignment in `docs/Week7_Individual_Exercise.docx`.
+
+## Week 7 Docker Compose
+
+The application can also run as a multi-service Docker Compose stack with:
+
+- Streamlit web application
+- PostgreSQL database
+- Adminer database interface
+- Persistent PostgreSQL volume
+- Database health checks
